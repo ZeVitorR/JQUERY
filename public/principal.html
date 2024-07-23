@@ -7,10 +7,18 @@
 <body>
     <!-- Seja bem vindo ao curso de jQuery :) -->
     <h1>Alura Typer</h1>
-    <p class="frase">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, est ipsam quasi aperiam, reiciendis distinctio dicta, quae vel voluptatibus inventore perspiciatis! Voluptatibus nulla culpa debitis maxime. Velit veritatis veniam ducimus?</p>
+    <p class="frase">Esta frase tem seis belas palavras</p>
+
     <ul class="informacoes">
-        <li>30 palavras</li>
-        <li>10 segundos</li>
+        <li><span id="tamanho-frase">30</span> palavras</li>
+        <li><span id="tempo-digitacao">10</span> segundos</li>
+    </ul>
+
+    <textarea class="campo-digitacao" cols="30" rows="10"></textarea>
+
+    <ul class="">
+        <li><span id="contador-caractere">0</span> caracteres</li>
+        <li><span id="contador-palavras">0</span> palavras</li>
     </ul>
 
     <script src="js/jquery.js"></script>
